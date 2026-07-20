@@ -1,0 +1,27 @@
+# Bundled binaries — fetched via Scripts/fetch-binaries.sh, never committed
+Resources/bin/*
+!Resources/bin/.gitkeep
+
+# Xcode / XcodeGen generated project
+*.xcodeproj
+*.xcworkspace
+
+# Swift Package Manager
+.build/
+Packages/*/.build/
+.swiftpm/
+
+# Xcode build artifacts
+DerivedData/
+build/
+
+# macOS
+.DS_Store
+
+# User-specific
+xcuserdata/
+*.xcuserstate
+
+# Python cache
+__pycache__/
+*.pyc
